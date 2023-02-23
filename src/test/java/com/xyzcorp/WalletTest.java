@@ -13,7 +13,7 @@ public class WalletTest {
     private Wallet wallet;
 
     @BeforeEach
-    private void setUp() {
+    void setUp() {
         wallet = new Wallet();
     }
 
